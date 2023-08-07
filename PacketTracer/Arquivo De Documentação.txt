@@ -1,0 +1,27 @@
+dispositivo final é: Tudo aquilo que temos interação "homem/maquina". 
+Todo equipamento é uma rede.
+
+Roteador sem fio e Ponto de Acesso
+----------------------------------------------------------------------------
+				Tipos de  Rede:
+	Localhost; 3 redes (Desktop, Notebook, Smartphone)
+
+	LAN; Rede de Área Local, é tudo aquilo que você pega e configura.
+
+	WA; Rede de Área Ampla.
+----------------------------------------------------------------------------
+				Roteador Nome Tecnico: Router-SOHO;
+	SOHO, abreviação do termo inglês Small Office-Home Office,é um conceito de 
+	escritório compacto e organizado, aplicável nas residências ou microempresas, 
+	que deixam para trás a imagem de que um ambiente de trabalho em casa é improvisado.
+----------------------------------------------------------------------------
+				O que é GUI:
+	GUI significa "Interface Gráfica do Usuário" (em inglês, Graphical User Interface). 
+	É um tipo de interface de interação que permite aos usuários interagir com um programa de computador ou sistema 
+	operacional por meio de elementos gráficos, como ícones, botões, janelas e menus, em vez de comandos de texto.
+----------------------------------------------------------------------------
+				O que é IPS:
+	Um Provedor de Acesso à Internet (ISP, na sigla em inglês) é uma empresa ou organização 
+	que oferece serviços de conexão à Internet para usuários finais ou outras empresas.
+	Os ISPs desempenham um papel fundamental na disponibilização de acesso à Internet aos usuários 
+	em suas casas, escritórios ou em qualquer lugar onde precisem de conectividade online.
