@@ -1,0 +1,107 @@
+   Segunda Aula
+=====================================================================================================
+    1º Topologia Física (Diagrama Físico)
+        2º Topologia Lógica (Diagrama Lógico)
+=====================================================================================================
+    MAC Address (NIC)
+    IPv4 (TCP - UDP)
+    HOSTNAME
+Configuração de endereço IPv4 (IPv6)
+    DHCP - Dinâmico
+    Static - Estático (Manual)
+Serviços de Rede    
+    DHCP Server
+    DNS Server
+    ICMP
+Opções dos Endereços IPv4
+    IP Address..: Endereço Lógico
+    Subnet Mask.: Máscara de Rede
+    Gateway.....: Acesso a Internet
+    DNS.........: Tradução de Nomes
+=====================================================================================================
+                                            MAC Address:
+    
+    Um endereço Media Access Control (MAC) é um identificador exclusivo atribuído a um controlador de 
+    interface de rede (NIC) para comunicação em um segmento de rede física. É um endereço de hardware 
+    que opera na camada de enlace de dados (Layer 2) do modelo OSI. Os endereços MAC são geralmente 
+    atribuídos pelo fabricante do hardware de rede e são usados ​​para garantir que os pacotes de dados 
+    sejam direcionados adequadamente ao destinatário pretendido em uma rede local.
+=====================================================================================================
+                                                NIC:
+                            
+    Um controlador de interface de rede (NIC), também conhecido como adaptador de rede ou placa de 
+    rede, é um componente de hardware que permite que um computador ou outro dispositivo se conecte 
+    a uma rede. Ele fornece a interface física entre o computador e o meio da rede, permitindo a 
+    transmissão de dados de e para outros dispositivos na rede. As NICs operam na camada de enlace de 
+    dados (Camada 2) e na camada física (Camada 1) do modelo OSI.
+=====================================================================================================
+                                                IP:
+    Um endereço IP é um identificador numérico único atribuído a cada dispositivo conectado a uma 
+    rede que utiliza o Protocolo de Internet para comunicação. Esse endereço é usado para identificar 
+    e localizar dispositivos em uma rede, permitindo que os pacotes de dados sejam roteados corretamente 
+    entre eles. Existem dois tipos principais de endereços IP:
+=====================================================================================================
+                                                TCP:
+    TCP significa "Transmission Control Protocol" em inglês, que se traduz para "Protocolo de Controle 
+    de Transmissão" em português. É um dos principais protocolos da suite TCP/IP, que é a base da 
+    comunicação na Internet e em muitas redes de computadores. O TCP opera na camada de transporte 
+    (camada 4) do modelo OSI e é projetado para fornecer comunicação confiável e orientada para conexão 
+    entre dispositivos em uma rede.
+=====================================================================================================
+                                                UDP:
+    UDP significa "User Datagram Protocol" em inglês, que se traduz para "Protocolo de Datagrama de 
+    Usuário" em português. Assim como o TCP, o UDP é um dos principais protocolos da suite TCP/IP, 
+    que é a base da comunicação na Internet e em muitas redes de computadores. O UDP também opera na 
+    camada de transporte (camada 4) do modelo OSI, mas difere do TCP em diversos aspectos.
+=====================================================================================================
+                                                Hostname:
+    Um hostname é um rótulo alfanumérico atribuído a um dispositivo conectado a uma rede, como um 
+    computador, servidor ou dispositivo de rede. Ele é usado para identificar o dispositivo de maneira 
+    migável em vez de depender apenas de endereços IP numéricos. Um hostname ajuda a tornar a comunicação 
+    e a identificação dos dispositivos na rede mais humanamente compreensíveis.
+=====================================================================================================
+                                                DHCP:
+    O DHCP (Dynamic Host Configuration Protocol), que pode ser traduzido como "Protocolo de Configuração 
+    Dinâmica de Hosts", é um protocolo de rede usado para automatizar a atribuição de endereços IP e 
+    outras configurações de rede para dispositivos em uma rede. O DHCP torna mais fácil e eficiente a 
+    administração de redes, especialmente em redes locais (LANs) onde vários dispositivos precisam 
+    ser configurados com endereços IP únicos e outras informações de rede.
+=====================================================================================================
+                                                Gateway:
+    
+    Em redes de computadores, um gateway é um dispositivo ou um computador que atua como um ponto de 
+    entrada ou saída entre duas redes distintas, permitindo a comunicação entre elas. O gateway é 
+    responsável por rotear o tráfego de dados entre as redes, sendo um elemento crucial para a 
+    conectividade e a transferência de informações entre diferentes redes ou sub-redes.
+=====================================================================================================
+                                                DNS:
+                        
+    O DNS (Domain Name System) é um sistema de nomenclatura hierárquica que é usado para traduzir 
+    nomes de domínio legíveis por humanos em endereços IP numéricos, que são utilizados pelos 
+    computadores para identificar e localizar outros dispositivos na Internet. Em outras palavras, o 
+    DNS é como uma "lista telefônica" da Internet, permitindo que as pessoas usem nomes de domínio 
+    amigáveis, como "www.example.com", em vez de memorizar os endereços IP complexos, como "192.168.1.1".
+=====================================================================================================
+                                                ICMP
+
+    ICMP (Internet Control Message Protocol) é um protocolo de rede pertencente à camada de rede (camada 3) 
+    do modelo OSI. Ele é usado para enviar mensagens de controle e erros entre dispositivos em uma rede IP. 
+    O ICMP não é usado para transportar dados de aplicativos como o TCP ou o UDP, mas sim para fornecer 
+    informações sobre o status da rede, diagnóstico de problemas e gerenciamento de roteamento.
+=====================================================================================================
+                                    Comandos de Verificação (Win)
+
+    ipconfig
+    ipconfig /all
+    ipconfig /release
+    ipconfig /renew
+    ping
+    
+=====================================================================================================
+   Não pode existir Dois: MAC-IP-HOSTNAME
+
+    nome de computador minusculo                        
+
+    Em rede local: a rede sempre é conciderada perfeita quando o tempo for menor do que 1ms (agora se 
+    for pingar e for igual a 1ms tem um problema, quando for mair está com certeza tendo problema ná 
+    rede local). Mas sem ser rede loca irá ser maior doque 1ms
