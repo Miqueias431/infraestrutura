@@ -1,0 +1,37 @@
+Terceira Aula
+=====================================================================================================
+    Rede Sem-Fio (Wi-Fi - Wiriless)
+2.4Ghz 802.11 BGN -->
+5.0Ghz 802.11 AC  -->
+    
+    B: (Não Existe) |
+                    |
+    G: (Não Existe) |
+                    |
+    N: (Atual)      |
+
+    Segurança:
+WEP - WPA2
+
+    SSID - Broadcast (Se desligado Oculta a Rede Sem-Fio, Gerando mais Segurança)
+
+Roteador Cisco: *(Todas as portas de rede estão desativadas), switch por padrão está ativada
+
+    Tudo: que for equipamento que fornece recurso de rede (servidor, roteador, etc), é IP statico.
+E tudo que usa serviço da rede é padrão DHCP ou Statico.
+
+    Mask: conhecida como /24
+=====================================================================================================
+                                             WPA2:
+
+    WPA significa "Wi-Fi Protected Access" (Acesso Wi-Fi Protegido, em tradução livre). É um protocolo 
+    de segurança desenvolvido para proteger redes sem fio (Wi-Fi) contra ameaças de segurança e ataques 
+    cibernéticos. O WPA foi introduzido como uma melhoria em relação ao protocolo de segurança anterior, 
+    chamado WEP (Wired Equivalent Privacy), que se mostrou vulnerável a diversos tipos de ataques.
+=====================================================================================================
+                                             SSID:
+
+    SSID significa "Service Set Identifier" (Identificador do Conjunto de Serviço, em tradução livre). 
+    É o nome único que identifica uma rede sem fio (Wi-Fi). Quando você procura por redes Wi-Fi 
+    disponíveis em um dispositivo, como um smartphone ou computador, você verá uma lista de SSIDs 
+    que representam as redes próximas.
